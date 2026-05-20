@@ -41,6 +41,11 @@ Para evitar terminar con `.opencode/.opencode`, aplicar siempre este flujo:
 3. Copiar el contenido de la fuente hacia `<raíz>/.opencode/`.
 4. Borrar la carpeta temporal al finalizar.
 
+**Exigencia obligatoria:**
+- La carpeta temporal de despliegue (por ejemplo `.opencode_tmp_<id>`) debe eliminarse siempre.
+- No se permite dejar la carpeta temporal vacía ni residual.
+- Si la eliminación falla, reportar error explícito y reintentar limpieza antes de cerrar el proceso.
+
 ## Limpieza de metadatos Git (obligatorio)
 Después de integrar `.opencode/`, eliminar cualquier carpeta `.git` interna que venga del clonado temporal.
 
