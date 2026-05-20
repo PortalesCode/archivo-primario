@@ -52,6 +52,14 @@ Después de integrar `.opencode/`, eliminar cualquier carpeta `.git` interna que
 - Objetivo: evitar que `.opencode/` quede como repositorio anidado o relación tipo submódulo.
 - Regla: en el proyecto final solo debe existir el `.git/` del repositorio principal.
 
+## Limpieza de placeholders (obligatorio)
+Después de integrar, eliminar archivos placeholder y de inicialización de estructura dentro de `.opencode/` cuando existan:
+
+- `.gitkeep`
+- `.gitignore`
+
+Aplicar limpieza recursiva solo para esos nombres objetivo.
+
 **Nota técnica (PowerShell):**
 No usar `-LiteralPath` con `*` para copiar contenido. Para wildcard seguro usar `Get-ChildItem` y copiar por elemento.
 
