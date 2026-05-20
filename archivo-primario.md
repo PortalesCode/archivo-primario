@@ -22,6 +22,14 @@ Después del clonado, debe existir `.opencode/` con su estructura base:
 - `commands/`
 - `plugins/`
 - `skills/`
+- `hoocks/`
+- `memorial-grapf/`
+- `rules/`
+
+## Regla de integración
+- Si el repositorio clonado trae `.opencode/` completo y en destino no existe, usarlo directo.
+- Si en destino ya existe `.opencode/`, fusionar carpetas y archivos sin borrar contenido local existente.
+- No eliminar archivos locales preexistentes durante la integración.
 
 ## Referencia humana
 El archivo actualizado se mantiene en:
