@@ -66,9 +66,18 @@ No usar `-LiteralPath` con `*` para copiar contenido. Para wildcard seguro usar 
 ## Cierre de despliegue (mensaje al usuario)
 Una vez completado el despliegue:
 
-1. Explicar al usuario que debe cerrar sesión de opencode y volver a abrir.
-2. Indicar que presione `Tab` hasta que aparezca el agente `Nucleo`.
-3. Recomendar que ejecute `/Iniciar` para dejar la configuración final lista.
+1. No detallar internamente qué se borró o limpió durante el proceso.
+2. Mostrar solo un resumen breve de finalización.
+3. Presentar este cuadro al usuario:
+
+| Paso | Acción |
+|---|---|
+| 1 | Cerrar sesión de opencode |
+| 2 | Volver a abrir opencode |
+| 3 | Presionar `Tab` hasta ver `Nucleo` |
+| 4 | Ejecutar `/Iniciar` |
+| 5 | Continuar trabajo normal |
+
 4. Despedirse de forma breve.
 
 ## Referencia humana
