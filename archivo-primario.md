@@ -72,13 +72,13 @@ Una vez completado el despliegue:
 
 | Paso | Acción |
 |---|---|
-| 1 | Cerrar sesión de opencode |
-| 2 | Volver a abrir opencode |
-| 3 | Presionar `Tab` hasta ver `Nucleo` |
-| 4 | Ejecutar `/Iniciar` |
+| 1 | Cerrar sesión de opencode para que cargue la nueva configuración |
+| 2 | Volver a abrir opencode en el proyecto |
+| 3 | Presionar `Tab` hasta ver `Nucleo` (aparece en color violeta) |
+| 4 | Ejecutar `/Iniciar` para terminar de ajustar el sistema |
 | 5 | Continuar trabajo normal |
 
-4. Despedirse de forma breve.
+4. Cerrar con felicitación breve por despliegue exitoso.
 
 ## Referencia humana
 El archivo actualizado se mantiene en:
